@@ -1,0 +1,1323 @@
+local ScarletPremium = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local ScarletHeadline = Instance.new("Folder")
+local ImageLabel = Instance.new("ImageLabel")
+local Pages = Instance.new("Folder")
+local AntiFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local FunFrame = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextButton_5 = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextButton_8 = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextButton_9 = Instance.new("TextButton")
+local MobileFrame = Instance.new("Frame")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextButton_12 = Instance.new("TextButton")
+local PCLockFrame = Instance.new("Frame")
+local TextLabel_16 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextButton_15 = Instance.new("TextButton")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local TextButton_16 = Instance.new("TextButton")
+local TextLabel_21 = Instance.new("TextLabel")
+local TextButton_17 = Instance.new("TextButton")
+local HomeFrame = Instance.new("Frame")
+local TextLabel_22 = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local TextLabel_24 = Instance.new("TextLabel")
+local PagesScrolling = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local HomeButton = Instance.new("TextButton")
+local PCAimlocksButton = Instance.new("TextButton")
+local MobileAimlocksButton = Instance.new("TextButton")
+local AntiLockFrame = Instance.new("TextButton")
+local FunStuffButton = Instance.new("TextButton")
+local LoginFrame = Instance.new("Frame")
+local TextButton_18 = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local TextLabel_25 = Instance.new("TextLabel")
+local Username = Instance.new("TextBox")
+local TextLabel_26 = Instance.new("TextLabel")
+local TextLabel_27 = Instance.new("TextLabel")
+local TextButton_19 = Instance.new("TextButton")
+local Toggler = Instance.new("ImageButton")
+
+--Properties:
+
+ScarletPremium.Name = "Scarlet Premium"
+ScarletPremium.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScarletPremium.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScarletPremium
+MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame.BackgroundColor3 = Color3.fromRGB(28, 28, 28)
+MainFrame.Position = UDim2.new(0.50646019, 0, 0.669902921, 0)
+MainFrame.Size = UDim2.new(0, 824, 0, 469)
+MainFrame.Visible = false
+
+ScarletHeadline.Name = "ScarletHeadline"
+ScarletHeadline.Parent = MainFrame
+
+ImageLabel.Parent = ScarletHeadline
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.33495146, 0, -0.166311309, 0)
+ImageLabel.Size = UDim2.new(0, 270, 0, 78)
+ImageLabel.Image = "rbxassetid://13539114224"
+
+Pages.Name = "Pages"
+Pages.Parent = MainFrame
+
+AntiFrame.Name = "AntiFrame"
+AntiFrame.Parent = Pages
+AntiFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiFrame.BackgroundTransparency = 1.000
+AntiFrame.Position = UDim2.new(0.220873788, 0, 0, 0)
+AntiFrame.Size = UDim2.new(0, 642, 0, 469)
+AntiFrame.Visible = false
+
+TextLabel.Parent = AntiFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 642, 0, 25)
+TextLabel.Font = Enum.Font.Jura
+TextLabel.Text = "ANTI LOCK PAGE"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+TextLabel_2.Parent = AntiFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0560747609, 0, 0.132196128, 0)
+TextLabel_2.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_2.Font = Enum.Font.Jura
+TextLabel_2.Text = "Ground Anti"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 20.000
+TextLabel_2.TextWrapped = true
+
+TextButton.Parent = AntiFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton.Position = UDim2.new(0.570093453, 0, 0.132196188, 0)
+TextButton.Size = UDim2.new(0, 240, 0, 32)
+TextButton.Font = Enum.Font.Jura
+TextButton.Text = "ACTIVATE"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 20.000
+
+TextLabel_3.Parent = AntiFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0560747609, 0, 0.245202526, 0)
+TextLabel_3.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_3.Font = Enum.Font.Jura
+TextLabel_3.Text = "Sky Anti"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+TextLabel_3.TextWrapped = true
+
+TextButton_2.Parent = AntiFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_2.Position = UDim2.new(0.570093453, 0, 0.245202586, 0)
+TextButton_2.Size = UDim2.new(0, 240, 0, 32)
+TextButton_2.Font = Enum.Font.Jura
+TextButton_2.Text = "ACTIVATE"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 20.000
+
+TextLabel_4.Parent = AntiFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0560747609, 0, 0.522388041, 0)
+TextLabel_4.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_4.Font = Enum.Font.Jura
+TextLabel_4.Text = "Neck Breaker"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+TextLabel_4.TextWrapped = true
+
+TextButton_3.Parent = AntiFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_3.Position = UDim2.new(0.570093453, 0, 0.522388101, 0)
+TextButton_3.Size = UDim2.new(0, 240, 0, 32)
+TextButton_3.Font = Enum.Font.Jura
+TextButton_3.Text = "ACTIVATE"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 20.000
+
+FunFrame.Name = "FunFrame"
+FunFrame.Parent = Pages
+FunFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FunFrame.BackgroundTransparency = 1.000
+FunFrame.Position = UDim2.new(0.220873788, 0, 0, 0)
+FunFrame.Size = UDim2.new(0, 642, 0, 469)
+FunFrame.Visible = false
+
+TextLabel_5.Parent = FunFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Size = UDim2.new(0, 642, 0, 25)
+TextLabel_5.Font = Enum.Font.Jura
+TextLabel_5.Text = "FUN PAGE"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 20.000
+
+TextLabel_6.Parent = FunFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.602803826, 0, 0.326225996, 0)
+TextLabel_6.Size = UDim2.new(0, 222, 0, 25)
+TextLabel_6.Font = Enum.Font.Jura
+TextLabel_6.Text = "Fly [X]"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 20.000
+
+TextButton_4.Parent = FunFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_4.Position = UDim2.new(0.610591948, 0, 0.402985066, 0)
+TextButton_4.Size = UDim2.new(0, 214, 0, 32)
+TextButton_4.Font = Enum.Font.Jura
+TextButton_4.Text = "ACTIVATE"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 20.000
+
+TextLabel_7.Parent = FunFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.604361415, 0, 0.513859272, 0)
+TextLabel_7.Size = UDim2.new(0, 222, 0, 25)
+TextLabel_7.Font = Enum.Font.Jura
+TextLabel_7.Text = "Speed Force [T]"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 20.000
+
+TextButton_5.Parent = FunFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_5.Position = UDim2.new(0.610591829, 0, 0.588486075, 0)
+TextButton_5.Size = UDim2.new(0, 214, 0, 32)
+TextButton_5.Font = Enum.Font.Jura
+TextButton_5.Text = "ACTIVATE"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 20.000
+
+TextLabel_8.Parent = FunFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0420562029, 0, 0.513859272, 0)
+TextLabel_8.Size = UDim2.new(0, 222, 0, 25)
+TextLabel_8.Font = Enum.Font.Jura
+TextLabel_8.Text = "SSHF (CS)"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 20.000
+
+TextButton_6.Parent = FunFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_6.Position = UDim2.new(0.0436137319, 0, 0.594882727, 0)
+TextButton_6.Size = UDim2.new(0, 214, 0, 32)
+TextButton_6.Font = Enum.Font.Jura
+TextButton_6.Text = "ACTIVATE"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 20.000
+
+TextButton_7.Parent = FunFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_7.Position = UDim2.new(0.610591888, 0, 0.215351835, 0)
+TextButton_7.Size = UDim2.new(0, 214, 0, 32)
+TextButton_7.Font = Enum.Font.Jura
+TextButton_7.Text = "ACTIVATE"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 20.000
+
+TextLabel_9.Parent = FunFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.604361475, 0, 0.13859275, 0)
+TextLabel_9.Size = UDim2.new(0, 222, 0, 25)
+TextLabel_9.Font = Enum.Font.Jura
+TextLabel_9.Text = "Forse Reset [P]"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 20.000
+
+TextButton_8.Parent = FunFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_8.Position = UDim2.new(0.049844265, 0, 0.219616175, 0)
+TextButton_8.Size = UDim2.new(0, 214, 0, 32)
+TextButton_8.Font = Enum.Font.Jura
+TextButton_8.Text = "ACTIVATE"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 20.000
+
+TextLabel_10.Parent = FunFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.048286736, 0, 0.13859272, 0)
+TextLabel_10.Size = UDim2.new(0, 222, 0, 25)
+TextLabel_10.Font = Enum.Font.Jura
+TextLabel_10.Text = "Headless (CS)"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 20.000
+
+TextLabel_11.Parent = FunFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.048286736, 0, 0.326225996, 0)
+TextLabel_11.Size = UDim2.new(0, 222, 0, 25)
+TextLabel_11.Font = Enum.Font.Jura
+TextLabel_11.Text = "Korblox (CS)"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 20.000
+
+TextButton_9.Parent = FunFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_9.Position = UDim2.new(0.049844265, 0, 0.407249451, 0)
+TextButton_9.Size = UDim2.new(0, 214, 0, 32)
+TextButton_9.Font = Enum.Font.Jura
+TextButton_9.Text = "ACTIVATE"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 20.000
+
+MobileFrame.Name = "MobileFrame"
+MobileFrame.Parent = Pages
+MobileFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MobileFrame.BackgroundTransparency = 1.000
+MobileFrame.Position = UDim2.new(0.220873788, 0, 0, 0)
+MobileFrame.Size = UDim2.new(0, 642, 0, 469)
+MobileFrame.Visible = false
+
+TextButton_10.Parent = MobileFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_10.Position = UDim2.new(0.571651101, 0, 0.132196158, 0)
+TextButton_10.Size = UDim2.new(0, 240, 0, 32)
+TextButton_10.Font = Enum.Font.Jura
+TextButton_10.Text = "ACTIVATE"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextSize = 20.000
+
+TextButton_11.Parent = MobileFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_11.Position = UDim2.new(0.571651101, 0, 0.454157829, 0)
+TextButton_11.Size = UDim2.new(0, 240, 0, 32)
+TextButton_11.Font = Enum.Font.Jura
+TextButton_11.Text = "ACTIVATE"
+TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.TextSize = 20.000
+
+TextLabel_12.Parent = MobileFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Size = UDim2.new(0, 642, 0, 25)
+TextLabel_12.Font = Enum.Font.Jura
+TextLabel_12.Text = "Mobile Lock Page"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 20.000
+
+TextLabel_13.Parent = MobileFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.052959498, 0, 0.245202556, 0)
+TextLabel_13.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_13.Font = Enum.Font.Jura
+TextLabel_13.Text = "Dot Lock [Q]"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 20.000
+TextLabel_13.TextWrapped = true
+
+TextLabel_14.Parent = MobileFrame
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.052959498, 0, 0.45415777, 0)
+TextLabel_14.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_14.Font = Enum.Font.Jura
+TextLabel_14.Text = "FOV TOGGLE"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 20.000
+TextLabel_14.TextWrapped = true
+
+TextLabel_15.Parent = MobileFrame
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.052959498, 0, 0.132196128, 0)
+TextLabel_15.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_15.Font = Enum.Font.Jura
+TextLabel_15.Text = "Camlock [Q]"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 20.000
+TextLabel_15.TextWrapped = true
+
+TextButton_12.Parent = MobileFrame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_12.Position = UDim2.new(0.571651101, 0, 0.245202586, 0)
+TextButton_12.Size = UDim2.new(0, 240, 0, 32)
+TextButton_12.Font = Enum.Font.Jura
+TextButton_12.Text = "ACTIVATE"
+TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.TextSize = 20.000
+
+PCLockFrame.Name = "PCLockFrame"
+PCLockFrame.Parent = Pages
+PCLockFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PCLockFrame.BackgroundTransparency = 1.000
+PCLockFrame.Position = UDim2.new(0.220873788, 0, 0, 0)
+PCLockFrame.Size = UDim2.new(0, 642, 0, 469)
+PCLockFrame.Visible = false
+
+TextLabel_16.Parent = PCLockFrame
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Size = UDim2.new(0, 642, 0, 25)
+TextLabel_16.Font = Enum.Font.Jura
+TextLabel_16.Text = "PC Lock Page"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 20.000
+
+TextLabel_17.Parent = PCLockFrame
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.052959498, 0, 0.132196128, 0)
+TextLabel_17.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_17.Font = Enum.Font.Jura
+TextLabel_17.Text = "Camlock [Q]"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 20.000
+TextLabel_17.TextWrapped = true
+
+TextButton_13.Parent = PCLockFrame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_13.Position = UDim2.new(0.571651101, 0, 0.132196158, 0)
+TextButton_13.Size = UDim2.new(0, 240, 0, 32)
+TextButton_13.Font = Enum.Font.Jura
+TextButton_13.Text = "ACTIVATE"
+TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.TextSize = 20.000
+
+TextButton_14.Parent = PCLockFrame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_14.Position = UDim2.new(0.571651101, 0, 0.238805965, 0)
+TextButton_14.Size = UDim2.new(0, 240, 0, 32)
+TextButton_14.Font = Enum.Font.Jura
+TextButton_14.Text = "ACTIVATE"
+TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.TextSize = 20.000
+
+TextLabel_18.Parent = PCLockFrame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.Position = UDim2.new(0.052959498, 0, 0.238805935, 0)
+TextLabel_18.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_18.Font = Enum.Font.Jura
+TextLabel_18.Text = "Silent AIm [RMB]"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 20.000
+TextLabel_18.TextWrapped = true
+
+TextButton_15.Parent = PCLockFrame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_15.Position = UDim2.new(0.571651101, 0, 0.351812392, 0)
+TextButton_15.Size = UDim2.new(0, 240, 0, 32)
+TextButton_15.Font = Enum.Font.Jura
+TextButton_15.Text = "ACTIVATE"
+TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.TextSize = 20.000
+
+TextLabel_19.Parent = PCLockFrame
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.Position = UDim2.new(0.052959498, 0, 0.351812363, 0)
+TextLabel_19.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_19.Font = Enum.Font.Jura
+TextLabel_19.Text = "Dot Lock [Q]"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 20.000
+TextLabel_19.TextWrapped = true
+
+TextLabel_20.Parent = PCLockFrame
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.Position = UDim2.new(0.052959498, 0, 0.624733448, 0)
+TextLabel_20.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_20.Font = Enum.Font.Jura
+TextLabel_20.Text = "FOV TOGGLE"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 20.000
+TextLabel_20.TextWrapped = true
+
+TextButton_16.Parent = PCLockFrame
+TextButton_16.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_16.Position = UDim2.new(0.571651101, 0, 0.624733508, 0)
+TextButton_16.Size = UDim2.new(0, 240, 0, 32)
+TextButton_16.Font = Enum.Font.Jura
+TextButton_16.Text = "ACTIVATE"
+TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.TextSize = 20.000
+
+TextLabel_21.Parent = PCLockFrame
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.Position = UDim2.new(0.052959498, 0, 0.718550086, 0)
+TextLabel_21.Size = UDim2.new(0, 240, 0, 32)
+TextLabel_21.Font = Enum.Font.Jura
+TextLabel_21.Text = "PRO LOCK FOV"
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.TextSize = 20.000
+TextLabel_21.TextWrapped = true
+
+TextButton_17.Parent = PCLockFrame
+TextButton_17.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_17.Position = UDim2.new(0.571651101, 0, 0.718550146, 0)
+TextButton_17.Size = UDim2.new(0, 240, 0, 32)
+TextButton_17.Font = Enum.Font.Jura
+TextButton_17.Text = "ACTIVATE"
+TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_17.TextSize = 20.000
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = Pages
+HomeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomeFrame.BackgroundTransparency = 1.000
+HomeFrame.Position = UDim2.new(0.220873788, 0, 0, 0)
+HomeFrame.Size = UDim2.new(0, 642, 0, 469)
+HomeFrame.Visible = false
+
+TextLabel_22.Parent = HomeFrame
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.Size = UDim2.new(0, 642, 0, 25)
+TextLabel_22.Font = Enum.Font.Jura
+TextLabel_22.Text = "HOME PAGE"
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.TextSize = 20.000
+
+ImageLabel_2.Parent = HomeFrame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ImageLabel_2.Position = UDim2.new(0.266355097, 0, 0.0618336871, 0)
+ImageLabel_2.Size = UDim2.new(0, 300, 0, 300)
+ImageLabel_2.Image = "rbxassetid://13539969621"
+
+TextLabel_23.Parent = HomeFrame
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.Position = UDim2.new(0.299065411, 0, 0.701492548, 0)
+TextLabel_23.Size = UDim2.new(0, 257, 0, 64)
+TextLabel_23.Font = Enum.Font.Jura
+TextLabel_23.Text = "Created By: FallensRevenge#0318"
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.TextScaled = true
+TextLabel_23.TextSize = 14.000
+TextLabel_23.TextWrapped = true
+
+TextLabel_24.Parent = HomeFrame
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.Position = UDim2.new(0.249221176, 0, 0.895522356, 0)
+TextLabel_24.Size = UDim2.new(0, 321, 0, 32)
+TextLabel_24.Font = Enum.Font.Jura
+TextLabel_24.Text = "SCRIPT STATUS: WORKING"
+TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.TextScaled = true
+TextLabel_24.TextSize = 14.000
+TextLabel_24.TextWrapped = true
+
+PagesScrolling.Name = "PagesScrolling"
+PagesScrolling.Parent = MainFrame
+PagesScrolling.Active = true
+PagesScrolling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PagesScrolling.BackgroundTransparency = 1.000
+PagesScrolling.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PagesScrolling.Position = UDim2.new(0.00242014229, 0, -0.000545978546, 0)
+PagesScrolling.Size = UDim2.new(0, 180, 0, 469)
+PagesScrolling.ScrollBarThickness = 1
+
+UIListLayout.Parent = PagesScrolling
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0.00200000009, 0)
+
+HomeButton.Name = "HomeButton"
+HomeButton.Parent = PagesScrolling
+HomeButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+HomeButton.BorderColor3 = Color3.fromRGB(53, 53, 53)
+HomeButton.Size = UDim2.new(0, 180, 0, 50)
+HomeButton.Font = Enum.Font.Unknown
+HomeButton.Text = "HOME"
+HomeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HomeButton.TextSize = 20.000
+
+PCAimlocksButton.Name = "PCAimlocksButton"
+PCAimlocksButton.Parent = PagesScrolling
+PCAimlocksButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+PCAimlocksButton.BorderColor3 = Color3.fromRGB(53, 53, 53)
+PCAimlocksButton.Size = UDim2.new(0, 180, 0, 50)
+PCAimlocksButton.Font = Enum.Font.Unknown
+PCAimlocksButton.Text = "PC AIMLOCKS"
+PCAimlocksButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+PCAimlocksButton.TextSize = 20.000
+
+MobileAimlocksButton.Name = "MobileAimlocksButton"
+MobileAimlocksButton.Parent = PagesScrolling
+MobileAimlocksButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+MobileAimlocksButton.BorderColor3 = Color3.fromRGB(53, 53, 53)
+MobileAimlocksButton.Size = UDim2.new(0, 180, 0, 50)
+MobileAimlocksButton.Font = Enum.Font.Unknown
+MobileAimlocksButton.Text = "MOBILE AIMLOCKS"
+MobileAimlocksButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+MobileAimlocksButton.TextSize = 20.000
+
+AntiLockFrame.Name = "AntiLockFrame"
+AntiLockFrame.Parent = PagesScrolling
+AntiLockFrame.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+AntiLockFrame.BorderColor3 = Color3.fromRGB(53, 53, 53)
+AntiLockFrame.Size = UDim2.new(0, 180, 0, 50)
+AntiLockFrame.Font = Enum.Font.Unknown
+AntiLockFrame.Text = "ANTI LOCKS"
+AntiLockFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiLockFrame.TextSize = 20.000
+
+FunStuffButton.Name = "FunStuffButton"
+FunStuffButton.Parent = PagesScrolling
+FunStuffButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+FunStuffButton.BorderColor3 = Color3.fromRGB(53, 53, 53)
+FunStuffButton.Size = UDim2.new(0, 180, 0, 50)
+FunStuffButton.Font = Enum.Font.Unknown
+FunStuffButton.Text = "FUN STUFF"
+FunStuffButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FunStuffButton.TextSize = 20.000
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = ScarletPremium
+LoginFrame.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+LoginFrame.Position = UDim2.new(0.350036323, 0, 0.0169902891, 0)
+LoginFrame.Size = UDim2.new(0, 433, 0, 237)
+
+TextButton_18.Parent = LoginFrame
+TextButton_18.BackgroundColor3 = Color3.fromRGB(104, 0, 0)
+TextButton_18.Position = UDim2.new(0.528510034, 0, 0.710970461, 0)
+TextButton_18.Size = UDim2.new(0, 161, 0, 31)
+TextButton_18.Font = Enum.Font.Michroma
+TextButton_18.Text = "Attempt Login"
+TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_18.TextSize = 14.000
+
+TextBox.Parent = LoginFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TextBox.Position = UDim2.new(0.338801742, 0, 0.466244727, 0)
+TextBox.Size = UDim2.new(0, 243, 0, 31)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "Enter Key Here"
+TextBox.Text = "Scar_27391929HxX6nMbz.Key"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 20.000
+TextBox.TextWrapped = true
+
+TextLabel_25.Parent = LoginFrame
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.Position = UDim2.new(0.0969976932, 0, 0, 0)
+TextLabel_25.Size = UDim2.new(0, 348, 0, 35)
+TextLabel_25.Font = Enum.Font.Michroma
+TextLabel_25.Text = "Login to Scarlet.CC"
+TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.TextSize = 20.000
+
+Username.Name = "Username"
+Username.Parent = LoginFrame
+Username.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Username.Position = UDim2.new(0.338801742, 0, 0.23839663, 0)
+Username.Size = UDim2.new(0, 243, 0, 31)
+Username.Font = Enum.Font.SourceSans
+Username.PlaceholderText = "Enter Key Here"
+Username.Text = ""
+Username.TextColor3 = Color3.fromRGB(255, 255, 255)
+Username.TextScaled = true
+Username.TextSize = 20.000
+Username.TextWrapped = true
+
+TextLabel_26.Parent = LoginFrame
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.Position = UDim2.new(0.0461893752, 0, 0.236286923, 0)
+TextLabel_26.Size = UDim2.new(0, 125, 0, 35)
+TextLabel_26.Font = Enum.Font.Michroma
+TextLabel_26.Text = "Username:"
+TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.TextSize = 20.000
+
+TextLabel_27.Parent = LoginFrame
+TextLabel_27.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.BackgroundTransparency = 1.000
+TextLabel_27.Position = UDim2.new(0.0461893752, 0, 0.455696225, 0)
+TextLabel_27.Size = UDim2.new(0, 125, 0, 35)
+TextLabel_27.Font = Enum.Font.Michroma
+TextLabel_27.Text = "Password"
+TextLabel_27.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_27.TextSize = 20.000
+
+TextButton_19.Parent = LoginFrame
+TextButton_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_19.BackgroundTransparency = 1.000
+TextButton_19.Position = UDim2.new(0.0323325619, 0, 0.713080168, 0)
+TextButton_19.Size = UDim2.new(0, 136, 0, 30)
+TextButton_19.Font = Enum.Font.SourceSansItalic
+TextButton_19.Text = "Forgot Password?"
+TextButton_19.TextColor3 = Color3.fromRGB(5, 155, 255)
+TextButton_19.TextSize = 14.000
+
+Toggler.Name = "Toggler"
+Toggler.Parent = ScarletPremium
+Toggler.AnchorPoint = Vector2.new(1, 1)
+Toggler.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggler.BackgroundTransparency = 1.000
+Toggler.Position = UDim2.new(0.904692769, 0, 0.818058252, 0)
+Toggler.Size = UDim2.new(0, 48, 0, 48)
+Toggler.Image = "rbxassetid://13539054929"
+
+-- Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- LoginFrame.LoginModule
+	local script = Instance.new('ModuleScript', LoginFrame)
+	script.Name = "LoginModule"
+	local function module_script()
+		
+		
+		local LoginModule = {}
+		
+		function LoginModule.AttemptLogin(key,correctkey)
+			local keylowered = string.lower(key)
+			if keylowered == correctkey then
+				script.Parent.TextButton.BackgroundColor3 = Color3.new(0, 0.423529, 0.0470588)
+				wait(1)
+				script.Parent.Visible = false
+			else
+				script.Parent.TextButton.BackgroundColor3 = Color3.new(0.407843, 0, 0)
+				wait(1)
+				script.Parent.TextButton.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+				wait(3)
+				script.Parent.Parent.LoginFrame.Visible = false
+				wait(1)
+				script.Parent.Parent.MainFrame.Visible = true
+				
+			end
+		end
+		
+		
+		return LoginModule
+		
+		
+		
+		
+		
+	end
+	fake_module_scripts[script] = module_script
+end
+
+
+-- Scripts:
+
+local function XVBP_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		local L_409_ = game.Players.LocalPlayer.Character
+		local L_410_ = L_409_:WaitForChild("Head")
+		local L_411_ = L_410_:WaitForChild("face")
+		L_411_.Texture = "rbxassetid://494290547"
+	end)
+end
+coroutine.wrap(XVBP_fake_script)()
+local function ZBZNHBO_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		getgenv().game.Players.LocalPlayer.Character.Head.Transparency = 1
+		getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
+		getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
+	end)
+end
+coroutine.wrap(ZBZNHBO_fake_script)()
+local function VZQCIR_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		local ply = game.Players.LocalPlayer
+		local chr = ply.Character
+		chr.RightLowerLeg.MeshId = "902942093"
+		chr.RightLowerLeg.Transparency = "1"
+		chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+		chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+		chr.RightFoot.MeshId = "902942089"
+		chr.RightFoot.Transparency = "1"
+	end)
+	
+end
+coroutine.wrap(VZQCIR_fake_script)()
+local function MAFOT_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		getgenv().AimPart = "HumanoidRootPart" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}
+		getgenv().AimlockToggleKey = "Q" -- Toggles Aimbot On/Off 
+		getgenv().AimRadius = 120 -- How far away from someones character you want to lock on at
+		getgenv().ThirdPerson = false -- Locking onto someone in your Third Person POV
+		getgenv().FirstPerson = true -- Locking onto someone in your First Person POV
+		getgenv().TeamCheck = false -- Check if Target is on your Team (True means it wont lock onto your teamates, false is vice versa) (Set it to false if there are no teams)
+		getgenv().PredictMovement = true -- Predicts if they are moving in fast velocity (like jumping) so the aimbot will go a bit faster to match their speed 
+		getgenv().PredictionVelocity = 7--The speed of the PredictMovement feature 
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zxciaz/Universal-Scripts/main/Aimbot", true))()
+	end)
+end
+coroutine.wrap(MAFOT_fake_script)()
+local function MFIZOG_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot/main/v1.0.0"))()
+	end)
+	local Settings = {
+		rewrittenmain = {
+			Enabled = true,
+			Key = "q",
+			DOT = true,
+			AIRSHOT = true,
+			NOTIF = false,
+			AUTOPRED = false,
+			FOV = math.huge,
+			RESOVLER = false
+		}
+	}
+	
+	local SelectedPart = "Head"
+	local Prediction = true
+	local PredictionValue = 0.12467245219812
+	
+	
+	local AnchorCount = 0
+	local MaxAnchor = 50
+	
+	local CC = game:GetService"Workspace".CurrentCamera
+	local Plr;
+	local enabled = false
+	local accomidationfactor = 0.1234772452176
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	local placemarker = Instance.new("Part", game.Workspace)
+	
+	function makemarker(Parent, Adornee, Color, Size, Size2)
+		local e = Instance.new("BillboardGui", Parent)
+		e.Name = "PP"
+		e.Adornee = Adornee
+		e.Size = UDim2.new(Size, Size2, Size, Size2)
+		e.AlwaysOnTop = Settings.rewrittenmain.DOT
+		local a = Instance.new("Frame", e)
+		if Settings.rewrittenmain.DOT == true then
+			a.Size = UDim2.new(1, 0, 1, 0)
+		else
+			a.Size = UDim2.new(0, 0, 0, 0)
+		end
+		if Settings.rewrittenmain.DOT == true then
+			a.Transparency = 0
+			a.BackgroundTransparency = 0
+		else
+			a.Transparency = 1
+			a.BackgroundTransparency = 1
+		end
+		a.BackgroundColor3 = Color
+		local g = Instance.new("UICorner", a)
+		if Settings.rewrittenmain.DOT == false then
+			g.CornerRadius = UDim.new(0, 0)
+		else
+			g.CornerRadius = UDim.new(1, 1) 
+		end
+		return(e)
+	end
+	
+	
+	local data = game.Players:GetPlayers()
+	function noob(player)
+		local character
+		repeat wait() until player.Character
+		local handler = makemarker(guimain, player.Character:WaitForChild(SelectedPart), Color3.fromRGB(107, 184, 255), 0.3, 3)
+		handler.Name = player.Name
+		player.CharacterAdded:connect(function(Char) handler.Adornee = Char:WaitForChild(SelectedPart) end)
+	
+	
+		spawn(function()
+			while wait() do
+				if player.Character then
+				end
+			end
+		end)
+	end
+	
+	for i = 1, #data do
+		if data[i] ~= game.Players.LocalPlayer then
+			noob(data[i])
+		end
+	end
+	
+	game.Players.PlayerAdded:connect(function(Player)
+		noob(Player)
+	end)
+	
+	spawn(function()
+		placemarker.Anchored = true
+		placemarker.CanCollide = false
+		if Settings.rewrittenmain.DOT == true then
+			placemarker.Size = Vector3.new(8, 8, 8)
+		else
+			placemarker.Size = Vector3.new(0, 0, 0)
+		end
+		placemarker.Transparency = 0.75
+		if Settings.rewrittenmain.DOT then
+			makemarker(placemarker, placemarker, Color3.fromRGB(232, 186, 200), 0.40, 0)
+		end
+	end)
+	
+	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(k)
+		if k == Settings.rewrittenmain.Key and Settings.rewrittenmain.Enabled then
+			if enabled == true then
+				enabled = false
+				if Settings.rewrittenmain.NOTIF == true then
+					Plr = getClosestPlayerToCursor()
+					game.StarterGui:SetCore("SendNotification", {
+						Title = "6akan Locking Alert",
+						Text = "Unlocked",
+						Icon = "http://www.roblox.com/asset/?id=8850953349",
+						Duration = 1,
+					})
+				end
+			else
+				Plr = getClosestPlayerToCursor()
+				enabled = true
+				if Settings.rewrittenmain.NOTIF == true then
+	
+					game.StarterGui:SetCore("SendNotification", {
+						Title = "6akan Locking Alert",
+						Text = "Locked on :"..tostring(Plr.Name);
+						Icon = "http://www.roblox.com/asset/?id=8850953349",
+						Duration = 1,
+					})
+	
+				end
+			end
+		end
+	end)
+	
+	
+	
+	function getClosestPlayerToCursor()
+		local closestPlayer
+		local shortestDistance = Settings.rewrittenmain.FOV
+	
+		for i, v in pairs(game.Players:GetPlayers()) do
+			if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("HumanoidRootPart") then
+				local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+				local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
+				if magnitude < shortestDistance then
+					closestPlayer = v
+					shortestDistance = magnitude
+				end
+			end
+		end
+		return closestPlayer
+	end
+	
+	local pingvalue = nil;
+	local split = nil;
+	local ping = nil;
+	
+	game:GetService"RunService".Stepped:connect(function()
+		if enabled and Plr.Character ~= nil and Plr.Character:FindFirstChild("HumanoidRootPart") then
+			placemarker.CFrame = CFrame.new(Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*accomidationfactor))
+		else
+			placemarker.CFrame = CFrame.new(0, 9999, 0)
+		end
+		if Settings.rewrittenmain.AUTOPRED == true then
+			pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
+			split = string.split(pingvalue,'(')
+			ping = tonumber(split[1])
+			if ping < 130 then
+				PredictionValue = 0.151
+			elseif ping < 125 then
+				PredictionValue = 0.149
+			elseif ping < 110 then
+				PredictionValue = 0.146
+			elseif ping < 105 then
+				PredictionValue = 0.138
+			elseif ping < 90 then
+				PredictionValue = 0.136
+			elseif ping < 80 then
+				PredictionValue = 0.134
+			elseif ping < 70 then
+				PredictionValue = 0.131
+			elseif ping < 60 then
+				PredictionValue = 0.1229
+			elseif ping < 50 then
+				PredictionValue = 0.1225
+			elseif ping < 40 then
+				PredictionValue = 0.1256
+			end
+		end
+	end)
+	
+	local mt = getrawmetatable(game)
+	local old = mt.__namecall
+	setreadonly(mt, false)
+	mt.__namecall = newcclosure(function(...)
+		local args = {...}
+		if enabled and getnamecallmethod() == "FireServer" and args[2] == "UpdateMousePos" and Settings.rewrittenmain.Enabled and Plr.Character ~= nil then
+	
+			-- args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*accomidationfactor)
+	            --[[
+	            if Settings.rewrittenmain.AIRSHOT == true then
+	                if game.Workspace.Players[Plr.Name].Humanoid:GetState() == Enum.HumanoidStateType.Freefall then -- Plr.Character:WaitForChild("Humanoid"):GetState() == Enum.HumanoidStateType.Freefall
+	                    
+	                    --// Airshot
+	                    args[3] = Plr.Character.LeftFoot.Position+(Plr.Character.LeftFoot.Velocity*PredictionValue)
+	
+	                else
+	                    args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*PredictionValue)
+	
+	                end
+	            else
+	                    args[3] = Plr.Character.HumanoidRootPart.Position+(Plr.Character.HumanoidRootPart.Velocity*PredictionValue)
+	            end
+	            ]]
+			if Prediction == true then
+	
+				args[3] = Plr.Character[SelectedPart].Position+(Plr.Character[SelectedPart].Velocity*PredictionValue)
+	
+			else
+	
+				args[3] = Plr.Character[SelectedPart].Position
+	
+			end
+	
+			return old(unpack(args))
+		end
+		return old(...)
+	end)
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if Settings.rewrittenmain.RESOVLER == true and Plr.Character ~= nil and enabled and Settings.rewrittenmain.Enabled then
+			if Settings.rewrittenmain.AIRSHOT == true and enabled and Plr.Character ~= nil then
+	
+				if game.Workspace.Players[Plr.Name].Humanoid:GetState() == Enum.HumanoidStateType.Freefall then -- Plr.Character:WaitForChild("Humanoid"):GetState() == Enum.HumanoidStateType.Freefall
+	
+					--// Airshot
+	
+					--// Anchor Check
+	
+					if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+						AnchorCount = AnchorCount + 1
+						if AnchorCount >= MaxAnchor then
+							Prediction = false
+							wait(2)
+							AnchorCount = 0;
+						end
+					else
+						Prediction = true
+						AnchorCount = 0;
+					end
+	
+					SelectedPart = "LeftFoot"
+	
+				else
+					--// Anchor Check
+	
+					if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+						AnchorCount = AnchorCount + 1
+						if AnchorCount >= MaxAnchor then
+							Prediction = false
+							wait(2)
+							AnchorCount = 0;
+						end
+					else
+						Prediction = true
+						AnchorCount = 0;
+					end
+	
+					SelectedPart = "HumanoidRootPart"
+	
+				end
+			else
+	
+				--// Anchor Check
+	
+				if Plr.Character ~= nil and Plr.Character.HumanoidRootPart.Anchored == true then
+					AnchorCount = AnchorCount + 1
+					if AnchorCount >= MaxAnchor then
+						Prediction = false
+						wait(2)
+						AnchorCount = 0;
+					end
+				else
+					Prediction = true
+					AnchorCount = 0;
+				end
+	
+				SelectedPart = "HumanoidRootPart"
+			end
+	
+		else
+			SelectedPart = "HumanoidRootPart"
+		end
+	end)
+	
+	end)
+	
+	
+end
+coroutine.wrap(MFIZOG_fake_script)()
+local function PNXS_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		workspace.Camera.FieldOfView = 60
+	end)
+end
+coroutine.wrap(PNXS_fake_script)()
+local function YLFB_fake_script() -- HomeButton.LocalScript 
+	local script = Instance.new('LocalScript', HomeButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local Page = script.Parent.Parent.Parent.Pages
+	
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		Page.AntiFrame.Visible = false
+		Page.HomeFrame.Visible = true
+		Page.MobileFrame.Visible = false
+		Page.FunFrame.Visible = false
+		Page.PCLockFrame.Visible = false
+		
+		print("Recall Function_01")
+	end)
+	
+end
+coroutine.wrap(YLFB_fake_script)()
+local function MFZJM_fake_script() -- PCAimlocksButton.LocalScript 
+	local script = Instance.new('LocalScript', PCAimlocksButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local Page = script.Parent.Parent.Parent.Pages
+	
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		Page.AntiFrame.Visible = false
+		Page.HomeFrame.Visible = false
+		Page.MobileFrame.Visible = false
+		Page.FunFrame.Visible = false
+		Page.PCLockFrame.Visible = true
+		
+		print("Recall Function_01")
+	end)
+	
+end
+coroutine.wrap(MFZJM_fake_script)()
+local function XDQLQ_fake_script() -- MobileAimlocksButton.LocalScript 
+	local script = Instance.new('LocalScript', MobileAimlocksButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local Page = script.Parent.Parent.Parent.Pages
+	
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		Page.AntiFrame.Visible = false
+		Page.HomeFrame.Visible = false
+		Page.MobileFrame.Visible = true
+		Page.FunFrame.Visible = false
+		Page.PCLockFrame.Visible = false
+		
+		print("Recall Function_01")
+	end)
+	
+end
+coroutine.wrap(XDQLQ_fake_script)()
+local function BSRL_fake_script() -- AntiLockFrame.LocalScript 
+	local script = Instance.new('LocalScript', AntiLockFrame)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local Page = script.Parent.Parent.Parent.Pages
+	
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		Page.AntiFrame.Visible = true
+		Page.HomeFrame.Visible = false
+		Page.MobileFrame.Visible = false
+		Page.FunFrame.Visible = false
+		Page.PCLockFrame.Visible = false
+		
+		print("Recall Function_01")
+	end)
+	
+end
+coroutine.wrap(BSRL_fake_script)()
+local function ZMJQQW_fake_script() -- FunStuffButton.LocalScript 
+	local script = Instance.new('LocalScript', FunStuffButton)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local Page = script.Parent.Parent.Parent.Pages
+	
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		Page.AntiFrame.Visible = false
+		Page.HomeFrame.Visible = false
+		Page.MobileFrame.Visible = false
+		Page.FunFrame.Visible = true
+		Page.PCLockFrame.Visible = false
+		
+		print("Recall Function_01")
+	end)
+	
+end
+coroutine.wrap(ZMJQQW_fake_script)()
+local function CLLWOL_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local LoginModule = require(script.Parent.Parent.LoginModule)
+	local debounce = false
+	local correctkey = "Scar_27391929HxX6nMbz.Key"
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if debounce == false then
+			debounce = true
+			local key = script.Parent.Parent.TextBox.Text
+			LoginModule.AttemptLogin(key,correctkey)
+			wait(2)
+			debounce = false
+		end
+	end)
+	
+	
+	
+end
+coroutine.wrap(CLLWOL_fake_script)()
+local function PLVOH_fake_script() -- Toggler.LocalScript 
+	local script = Instance.new('LocalScript', Toggler)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainFrame.Visible = not script.Parent.Parent.MainFrame.Visible
+	end)
+	
+end
